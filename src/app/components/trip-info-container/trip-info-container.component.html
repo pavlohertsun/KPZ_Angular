@@ -1,0 +1,9 @@
+<div class="trip_container text_styles">
+  <h2>Trip id: #{{trip.id}}</h2>
+  <p>{{trip.start_time}}</p>
+  <p>{{trip.end_time}}</p>
+  <p>{{trip.start_point}}</p>
+  <p>{{trip.destination_point}}</p>
+  <p>Driver: {{trip.driver.name}} {{trip.driver.surname}}</p>
+  <p>Price: {{trip.price | currency: "UAH "}}</p>
+</div>

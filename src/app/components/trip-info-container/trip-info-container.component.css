@@ -1,0 +1,22 @@
+.trip_container{
+  background-color: #d9d9d9;
+  border-radius: 50px;
+  margin-top: 5%;
+  margin-left: 15%;
+  width: 60%;
+  padding: 5% 0 5% 10%;
+}
+.text_styles{
+  color: #282828;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+.text_styles h2{
+  font-size: 28px;
+}
+.text_styles p{
+  font-size: 20px;
+}
+.trip_container a:hover{
+  color: #b5b3b3;
+}

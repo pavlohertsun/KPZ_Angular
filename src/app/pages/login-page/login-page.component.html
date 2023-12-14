@@ -1,0 +1,14 @@
+<div class="login_container">
+    <form class="inside_container text_styles" [formGroup]="form" (ngSubmit)="login()">
+      <h2>Sign in </h2>
+      <input type="text" placeholder="Email:" formControlName="email" autofocus>
+      <input type="password" placeholder="Password:" formControlName="password">
+      <p *appAccessControl="accessDenied" style="color: brown">Incorrect email or password</p>
+      <button id="login_button" type="submit">Sign in</button>
+      <div class="register_container">
+        <p>Dont have an account?</p>
+        <a routerLink="/register">Sign up</a>
+      </div>
+    </form>
+</div>
+
